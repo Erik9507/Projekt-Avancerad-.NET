@@ -27,7 +27,7 @@ namespace Projekt_Avancerad_.NET.Models
 
             modelBuilder.Entity<Project>().HasData(new Project { Id = 1, ProjectName = "Lion Bank"});
             modelBuilder.Entity<Project>().HasData(new Project { Id = 2, ProjectName = "Numbers Game"});
-            modelBuilder.Entity<Project>().HasData(new Project { Id = 3, ProjectName = "Car Race application"});
+            modelBuilder.Entity<Project>().HasData(new Project { Id = 3, ProjectName = "Car Race application"}); 
 
             modelBuilder.Entity<TimeReport>().HasData(new TimeReport { Id = 1, HoursWorked = 5, WeekNumber = 12, EmployeeId = 1, ProjetId = 1});
             modelBuilder.Entity<TimeReport>().HasData(new TimeReport { Id = 2, HoursWorked = 10, WeekNumber = 12, EmployeeId = 1, ProjetId = 2});
