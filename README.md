@@ -16,18 +16,18 @@ https://localhost:5001/api/timereport/getemptimespecweek/5/13
 
 5. Vi vill kunna lägga till, uppdatera och ta bort anställda.
 [HTTPPOST] {"fName": "", "lName": "", "title": ""}
-[HTTPPUT]{id}  {"fName": "", "lName": "", "title": ""}
+[HTTPPUT]{id}  {"id" : "", "fName": "", "lName": "", "title": ""}
 [HTTPDELETE]{id}
 
 
 6. Vi vill kunna lägga till, uppdatera och ta bort projekt
 [HTTPPOST] {"ProjectName": ""}
-[HTTPPUT]{id}  {"ProjectName": ""}
+[HTTPPUT]{id}  {"id" : "", "ProjectName": ""}
 [HTTPDELETE]{id}
 
 7. Vi vill kunna lägga till, uppdatera och ta bort specifika tidsrapporter
 [HTTPPOST] {"hoursWorked": , "weekNumber": , "employee": null, "employeeId": , "project": null, "projetId": }
-[HTTPPUT]{id} {"hoursWorked": , "weekNumber": , "employee": null, "employeeId": , "project": null, "projetId": }
+[HTTPPUT]{id} {"id" : "", "hoursWorked": , "weekNumber": , "employee": null, "employeeId": , "project": null, "projetId": }
 [HTTPDELETE]{id}
 
 
